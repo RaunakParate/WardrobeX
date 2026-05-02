@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/wardrobeFragment">
+
+    <fragment
+        android:id="@+id/wardrobeFragment"
+        android:name="com.example.wardrobex.ui.wardrobe.WardrobeFragment"
+        android:label="Wardrobe">
+
+        <action
+            android:id="@+id/action_wardrobe_to_upload"
+            app:destination="@id/uploadFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_wardrobe_to_detail"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.example.wardrobex.ui.upload.UploadFragment"
+        android:label="Add Clothing" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.wardrobex.ui.detail.DetailFragment"
+        android:label="Detail">
+        <argument
+            android:name="clothingId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>

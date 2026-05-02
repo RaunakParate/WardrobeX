@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "614599361853",
+    "project_id": "wardrobex-01",
+    "storage_bucket": "wardrobex-01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614599361853:android:8dd73a09da531603d8b154",
+        "android_client_info": {
+          "package_name": "com.example.wardrobex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvXBIzvIo8clS5jrRf142QiS7gvdamOPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

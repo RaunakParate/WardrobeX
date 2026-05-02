@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.wardrobex.app-mergeDebugResources-57:/layout/fragment_detail.xml",
+        "source": "com.example.wardrobex.app-main-60:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.example.wardrobex.app-mergeDebugResources-57:/layout/item_clothing.xml",
+        "source": "com.example.wardrobex.app-main-60:/layout/item_clothing.xml"
+    },
+    {
+        "merged": "com.example.wardrobex.app-mergeDebugResources-57:/layout/fragment_upload.xml",
+        "source": "com.example.wardrobex.app-main-60:/layout/fragment_upload.xml"
+    },
+    {
+        "merged": "com.example.wardrobex.app-mergeDebugResources-57:/layout/activity_main.xml",
+        "source": "com.example.wardrobex.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.wardrobex.app-mergeDebugResources-57:/layout/fragment_wardrobe.xml",
+        "source": "com.example.wardrobex.app-main-60:/layout/fragment_wardrobe.xml"
+    }
+]
